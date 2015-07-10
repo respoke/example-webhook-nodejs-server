@@ -16,7 +16,7 @@ app.use(function (req, res) {
     res.end('OK\n');
 });
 
-// create node.js http server and listen on port 3001
+// create node.js http server and listen on port 3009
 var server = http.createServer(app);
 server.on('error', function (err) {
     debug('server error', err);
